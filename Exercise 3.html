@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+		#myHeader {
+			background-color: lightsalmon;
+			padding: 30px;
+			text-align: left;
+		}
+
+		.title{
+		    background-color:beige;
+	    }
+
+	    .back{
+            background-color: linen;
+            color: black;
+            padding: 8px;
+	    }
+
+	</style>
+	<style type="text/css">
+
+	h1     { font-weight: 900;  }
+	li em  { text-decoration: line-through; }
+    em     { text-decoration: underline; }
+    ul     {margin-left: 20px;}
+
+    span{
+		color:sandybrown ;
+	}
+	.extra span {
+		color: inherit;
+	}
+    </style>
+
+</head>
+
+</head>
+<body>
+	<h1 id="myHeader"><strong>Feedback Form</strong></h1>
+	<p class="title" style= "color: gray;">Please fill out this form to help us <em>improve our site.</em></p>
+	<p><li class="back">Name:<input name="name" type="text" size="25" ></p>
+    	
+   
+    <p><li class="back">Comments:<br><textarea rows="4" cols="50">
+Enter comments here.
+  	    </textarea></p>
+       
+  	<p><li class="back">E-mail Address:
+    	<input name="E-mail" type="text" size="25" >
+    </p>
+
+    <p><li class="back"><strong>Things you liked:</strong><br>
+    	Site design<input type="checkbox" name="like" value="Site design">
+  		Links<input type="checkbox" name="like" value="Links">
+  		Ease of use<input type="checkbox" name="like" value="Ease of use">
+  		Images<input type="checkbox" name="like" value="Images">
+  		Source code<input type="checkbox" name="like" value="Source code">
+    </p>
+
+    <p><li class="back"><strong>How did you get to our site?:</strong><br>
+            Search engine<input type="radio" name="getsite" value="Search engine"checked>
+        	Links from another site<input type="radio" name="getsite" value="Links from another site" >
+        	Deitel.com Web site<input type="radio" name="getsite" value="Deitel.com Web site">
+        	Reference in a book<input type="radio" name="getsite" value="Reference in a book">
+        	Other<input type="radio" name="getsite" value="Other">
+    </p>
+
+    <p><li class="back"><label for="rating">Rate our site:</label>
+    	<select name="rating">
+    		<option value="rating">Amazing</option>
+    		<option value="rating">Good</option>
+    		<option value="rating">Ordinary</option>
+    		<option value="rating">Can be better</option>
+    		<option value="rating">Bad</option>
+    	</select></p>
+
+    <p><img src = "https://img.win3000.com/m00/97/20/0218ee7e942352c2279d249f2c1c728b.jpg" alt= "personal photo" width="100" height="100"><br>personal photo</p>
+
+
+    <div>
+    Thank for your <span>feedback</span>
+    </div>
+    
+    <div class="extra" style="color: lightskyblue;">
+    Thank for your <span>feedback</span> 
+    </div>
+
+    <div style = "color:lightgray;">
+    Thank for your <span>feedback</span>	
+    </div>
+
+    <p><input  type="submit" value="Submit">
+    <input  type="reset" value="Reset"></p>
+
+
+    	
+    
+
+   
+
+</body>
