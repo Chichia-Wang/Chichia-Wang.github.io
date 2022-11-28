@@ -1,17 +1,17 @@
-body{background-color: pink;	
+body{background-color: bisque;	
 	font-family: arial, sans-serif;
-	color:green;
-	padding-top: 50px;
+	color:lightblue;
+	padding-top: 20px;
   	padding-right: 30px;
   	padding-bottom: 50px;
-  	padding-left: 80px}
+  	padding-left: 50px}
 
 nav{	font-weight:bold;
 		border:2px solid rosybrown;
-		width: 40em;
+		width: 20em;
 		background-color:rosybrown;
 		text-align:center;
-		color:brown;}
+		color:gray;}
 
 nav ul{	display:none;
 		list-style:none;
@@ -21,7 +21,7 @@ nav ul{	display:none;
 nav:hover ul{display:block;}
 
 nav ul	li {border-top:2px solid brown;
-			background-color:sandybrown;
+			background-color:beige;
 			width:40em;
 			color:brown}
 
@@ -30,7 +30,7 @@ a{text-decoration:none;}
 
 @media screen and (min-width:480px){
 	body{
-		background-color: lightblue;
+		background-color: lightcyan;
 	}
 }
 
@@ -42,7 +42,7 @@ width:100px;
 }
 
 .navbar li {
-	background :aliceblue;
+	background :lightcoral;
 	margin:10;
 	padding:10;
 	border-right:20;
