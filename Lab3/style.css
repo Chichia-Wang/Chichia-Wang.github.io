@@ -21,7 +21,7 @@ nav ul{	display:none;
 nav:hover ul{display:block;}
 
 nav ul	li {border-top:2px solid brown;
-			background-color:lightblue
+			background-color:white;
 			width:40em;
 			color:brown}
 
@@ -42,7 +42,7 @@ width:100px;
 }
 
 .navbar li {
-	background :lightskyblue;
+	background :gray;
 	margin:10;
 	padding:10;
 	border-right:20;
