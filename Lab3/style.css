@@ -11,7 +11,7 @@ nav{	font-weight:bold;
 		width: 20em;
 		background-color:rosybrown;
 		text-align:center;
-		color:gray;}
+		color:black;}
 
 nav ul{	display:none;
 		list-style:none;
@@ -42,7 +42,7 @@ width:100px;
 }
 
 .navbar li {
-	background :lightcoral;
+	background :lightskyblue;
 	margin:10;
 	padding:10;
 	border-right:20;
@@ -50,5 +50,5 @@ width:100px;
 
 .navbar{
 	font-weight:bold;
-	color:orangered;
+	color:gray;
 }
