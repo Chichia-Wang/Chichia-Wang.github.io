@@ -1,13 +1,11 @@
 <style type="text/css">
 	body{
 		font-family: cursive;
-		color: blue;
+		color: #800000;
+		background-color: #FFF0F5;
 		margin-left: auto;
 		margin-right: auto;
 	}
-    body{
-        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-    }
 	p{
 		margin-top: 2%;
 		float: top;
@@ -29,4 +27,12 @@
 	space{
 		margin-left: 2%;
 	}
+
+	@media screen and (min-width: 600px){
+		body{
+			background-color: #FFFAF0;
+			color: #F08080;
+		}
+	}
+
 </style>
