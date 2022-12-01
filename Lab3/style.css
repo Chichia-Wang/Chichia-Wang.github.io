@@ -1,6 +1,6 @@
 body{background-color: bisque;	
 	font-family: arial, sans-serif;
-	color:lightblue;
+	color:pink;
 	padding-top: 20px;
   	padding-right: 30px;
   	padding-bottom: 50px;
@@ -21,7 +21,7 @@ nav ul{	display:none;
 nav:hover ul{display:block;}
 
 nav ul	li {border-top:2px solid brown;
-			background-color:beige;
+			background-color:lightblue
 			width:40em;
 			color:brown}
 
