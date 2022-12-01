@@ -1,6 +1,6 @@
-body{background-color: bisque;	
+body{background-color: lightgray;	
 	font-family: arial, sans-serif;
-	color:pink;
+	color:white;
 	padding-top: 20px;
   	padding-right: 30px;
   	padding-bottom: 50px;
@@ -30,7 +30,7 @@ a{text-decoration:none;}
 
 @media screen and (min-width:480px){
 	body{
-		background-color: pink;
+		background-color: lightgray;
 	}
 }
 
