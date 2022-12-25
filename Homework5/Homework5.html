@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+       
+    </style>
+</head>
+<body>  
+    <div class="wrap">
+        
+        <h1><center>JS Calculator</center></h1>
+            <form>
+                <p><center><label>Number 1</label></center></p>
+                <p><center><input type="number" id="num1" class="input_box" ></center></p>
+                <p><center><label>Number 2</label></center></p>
+                <p><center><input type="number" id="num2" class="input_box" ></center></p>
+                <p><center><label>Operate way?</label></center></p>
+                <p><center><select id="operate" name="method" style="width: 170px; height: 20px;" onchange="change()">
+                    <option value="0">+</option>
+                    <option value="1">-</option>
+                    <option value="2">x</option>          
+                    <option value="3">/</option>
+                </select></center></p>
+            </form>
+            <p><center><input id="count_button" type="button" style="background-color: orange;
+            color: white; width: 170px; height: 20px;" value="Count" class="cal_button" onclick="calculator()"></center></p>
+            <p><center>Result = <span id="result"></span></center></p>
+    </div>
+
+<script type="text/javascript">
+    function calculator()
+    {
+        var n1 = parseInt(document.getElementById('num1').value);
+        var n2 = parseInt(document.getElementById('num2').value);
+        var operator = parseInt(document.getElementById('operate').value);
+
+        if (operator == 0) {
+
+            document.getElementById('result').innerHTML = add(n1, n2);
+            
+
+        }else if(operator == 1){
+
+            document.getElementById('result').innerHTML = minus(n1, n2);
+        
+        }else if(operator == 2){
+
+            document.getElementById('result').innerHTML = multiply(n1, n2);
+            
+        }else{
+
+            document.getElementById('result').innerHTML = divide(n1, n2);
+            
+        }
+    }
+
+    function add(num1, num2)
+    {
+        return num1 + num2;
+    }
+
+    function minus(num1, num2)
+    {
+        return num1 - num2;
+    }
+
+    function multiply(num1, num2)
+    {
+        return num1 * num2;
+    }
+
+    function divide(num1, num2)
+    {
+        return num1 / num2;
+    }
+
+    function change()  //
+    {
+        var obj = document.getElementById("operate");
+        var val = obj.options[obj.selectedIndex].value;
+
+        if (val == 0 )
+        {
+           document.getElementById('count_button').setAttribute("value","Add"); 
+
+        }else if(val == 1){
+
+            document.getElementById('count_button').setAttribute("value","Minus");
+
+        }else if(val == 2){
+
+            document.getElementById('count_button').setAttribute("value","Multiply");
+
+        }else{
+
+            document.getElementById('count_button').setAttribute("value","Divide");
+        }
+
+    }
+  
+</script>
+</body>
